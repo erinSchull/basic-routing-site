@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 
-import './Home.css';
 
 class Home extends Component {
     render() {
         return (
-            <div>
+            <div className='home-page' >
                 <div>
                     <h1>Welcome to Erin's Amazing Routing App</h1>
                     <h2>To Come:</h2>
@@ -16,7 +15,7 @@ class Home extends Component {
                         <li>User Functionality!!</li>
                     </ol>
                 </div>
-                <div>
+                <div className='second-div' >
                     <p>Here's a basic dropdown (just practicing different html):</p>
                     <select>
                         <option>Option 1</option>

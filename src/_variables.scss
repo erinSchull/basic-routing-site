@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn+SC');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+
+//component Variables
+$titleFontFamily: 'Vollkorn SC', serif;
+$subtitleFontFamily: 'PT Serif', serif;
+$titleFontColor: #008f95;
+$bodyFontColor: #eb6e80;
+$titleUnderline: solid 5px #F9BF9D;
+
+
+//home Variables
+
+$listFontFamily: 'Bitter', serif;
+$listFontColor: #e24e42;
+
+
+//header Variables
+$linkFontColor: rgb(255, 255, 255);
+$linkBackground: #eb6e80;
+$linkBackgroundWidth: 150px;
+$linkBorder: solid 4px #008f95;
+$linkBorderRadius: 12px;
+$headerBackground: #e9b000;
+$headerBorder: solid 10px #F9BF9D;
+$headerBorderRadius: 10px;
+$imageBorder: solid 5px #008f95;
+$imageBorderRadius: 80px;

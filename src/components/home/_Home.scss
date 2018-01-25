@@ -1,0 +1,47 @@
+@import './../../_variables.scss';
+
+.home-page{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        color: $titleFontColor;
+        width: 1200px;
+        h1{
+            font-family: $titleFontFamily;
+            font-size: 35px;
+            border-bottom: $titleUnderline;
+            width: 75%;
+            display: flex;
+            align-items: baseline;
+        }
+        h2{
+            font-family: $subtitleFontFamily;
+            font-size: 30px;
+        }
+        ol{
+            display: flex;
+            flex-direction: column;
+            align-items: baseline;
+            font-family: $listFontFamily;
+            color: $listFontColor;
+        }
+    } .second-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p{
+            color: $bodyFontColor;
+            font-size: 20px;
+            select {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            }
+        }
+    }
+}

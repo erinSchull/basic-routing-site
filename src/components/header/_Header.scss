@@ -1,0 +1,28 @@
+@import './../../_variables.scss';
+
+.header{
+ display: flex;
+ flex-direction: row;
+ align-items: flex-end;
+ justify-content: space-around;
+ background-color: $headerBackground;
+//  border: $headerBorder;
+ border-radius: $headerBorderRadius;
+ margin-top: 5px;
+    img{
+        height: 125px;
+        width: 130px;
+        border: $imageBorder;
+        border-radius: $imageBorderRadius;
+        margin: 5px;
+    }
+    .links{
+        color: $linkFontColor; 
+        text-decoration: none;
+        background-color: $linkBackground;
+        width: $linkBackgroundWidth;
+        border: $linkBorder;
+        border-radius: $linkBorderRadius;
+        margin: 5px;
+    } 
+}
