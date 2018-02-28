@@ -18,9 +18,11 @@
             align-items: baseline;
             margin-bottom: 5px;
         }
-        h2{
+        .home-sub{
             font-family: $subtitleFontFamily;
             font-size: 30px;
+            text-indent: 20px;
+            margin-bottom: 7px;
         }
         ol{
             display: flex;
@@ -28,6 +30,7 @@
             align-items: baseline;
             font-family: $listFontFamily;
             color: $listFontColor;
+            padding-left: 50px;
         }
     } .second-div{
         display: flex;

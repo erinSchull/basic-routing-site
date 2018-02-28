@@ -11,7 +11,9 @@ class Header extends Component {
     render(){
         return (
             <header className='header' >
+                <section>
                 <img src={icon} alt= 'code icon' />
+                </section>
                 <Link className = 'links' to='/' >
                 <img src={homeIcon} alt='Home' className='home-icon' />
                 </Link>

@@ -7,11 +7,10 @@ class Home extends Component {
             <div className='home-page' >
                 <div>
                     <h1>Welcome to Erin's Amazing Routing App</h1>
-                    <h2>To Come:</h2>
+                    <h2 className='home-sub' >To Come:</h2>
                     <ol>
                         <li>To Do List</li>
-                        <li>Basic back end</li>
-                        <li>Sass Styling</li>
+                        <li>Sass Styling</li> 
                         <li>User Functionality!!</li>
                     </ol>
                 </div>

@@ -63,43 +63,57 @@ a:visited {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #e9b000;
   border-radius: 10px;
+  width: 99vw;
+  box-sizing: border-box;
+  padding-left: 5px;
+  padding-right: 5px;
   margin-top: 5px;
-  margin-bottom: 7px; }
+  margin-bottom: 7px;
+  height: 15vh; }
   .header img {
-    height: 125px;
+    height: 100px;
     width: 130px;
     border: solid 5px #008f95;
-    border-radius: 80px;
-    margin: 5px; }
+    border-radius: 125px; }
   .header .links {
     color: white;
     text-decoration: none;
     width: 150px;
     border: solid 4px #008f95;
     border-radius: 12px;
-    margin: 5px; }
+    margin: 5px;
+    height: 70px; }
   .header .router-icon {
     height: 50px;
     width: 130px;
-    border: none; }
+    border: none;
+    position: relative;
+    top: 10px; }
   .header .sass-icon {
     height: 50px;
     width: 130px;
     border: none;
-    border-radius: 0px; }
+    border-radius: 0px;
+    position: relative;
+    top: 10px; }
   .header .list-icon {
     height: 50px;
-    width: 120px;
+    width: 100px;
     border: none;
-    border-radius: 0px; }
+    border-radius: 0px;
+    position: relative;
+    top: 10px;
+    left: 3px; }
   .header .home-icon {
     height: 50px;
     width: 100px;
     border: none;
-    border-radius: 0px; }
+    border-radius: 0px;
+    position: relative;
+    top: 10px; }
 
 .home-page {
   display: flex;
@@ -119,15 +133,18 @@ a:visited {
       display: flex;
       align-items: baseline;
       margin-bottom: 5px; }
-    .home-page div h2 {
+    .home-page div .home-sub {
       font-family: "PT Serif", serif;
-      font-size: 30px; }
+      font-size: 30px;
+      text-indent: 20px;
+      margin-bottom: 7px; }
     .home-page div ol {
       display: flex;
       flex-direction: column;
       align-items: baseline;
       font-family: "Bitter", serif;
-      color: #e24e42; }
+      color: #e24e42;
+      padding-left: 50px; }
   .home-page .second-div {
     display: flex;
     flex-direction: column;
