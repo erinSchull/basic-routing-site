@@ -18,10 +18,32 @@
     .links{
         color: $linkFontColor; 
         text-decoration: none;
-        background-color: $linkBackground;
         width: $linkBackgroundWidth;
         border: $linkBorder;
         border-radius: $linkBorderRadius;
         margin: 5px;
     } 
+    .router-icon{
+        height: 50px;
+        width: 130px;
+        border: none;
+    }
+    .sass-icon{
+        height: 50px;
+        width: 130px;
+        border: none;
+        border-radius: 0px;
+    }
+    .list-icon{
+        height: 50px;
+        width: 120px;
+        border: none;
+        border-radius: 0px;   
+    }
+    .home-icon{
+        height: 50px;
+        width: 100px;
+        border: none;
+        border-radius: 0px;   
+    }
 }

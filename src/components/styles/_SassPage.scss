@@ -1,0 +1,29 @@
+#sass-page{
+    text-align: left;
+    padding-left: 10px;
+    #sass-title{
+        font-size: 28px;
+        margin-bottom: 5px;
+    }
+    .biz{
+        font-size: 20px;
+    }
+    .discuss{
+        font-size: 18px;
+    }
+    .sass-sub{
+        font-size: 18px;
+    }
+    strong{
+        font-size: 16px;
+        color: red;
+    }
+    code{
+        background-color: rgba(180, 176, 176, 0.884);
+        color: white;
+        width: 100px;
+    }
+    .step-title{
+        font-size: 18px;
+    }
+}
