@@ -6,7 +6,7 @@ import icon from './../../Images/code-icon.ico';
 class Header extends Component {
     render(){
         return (
-            <div className='header' >
+            <header className='header' >
                 <img src={icon} alt= 'spinning icon' />
                 <Link className = 'links' to='/' >
                 <p>Home</p>
@@ -14,13 +14,13 @@ class Header extends Component {
                 <Link className = 'links' to='/instructions' >
                 <p>Router Instructions</p>
                 </Link>
-                <Link className = 'links' to='/page1' >
+                <Link className = 'links' to='/sass' >
                 <p>All about that Sass</p>
                 </Link>
-                <Link className = 'links' to='/page2' >
+                <Link className = 'links' to='/to-do' >
                 <p>To Do List</p>
                 </Link>
-            </div>
+            </header>
         )
     }
 }

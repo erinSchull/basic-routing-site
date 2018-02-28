@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class page1 extends Component {
+class SassPage extends Component {
     render() {
         return (
             <div>
@@ -30,4 +30,4 @@ class page1 extends Component {
     }
 }
 
-export default page1;
+export default SassPage;

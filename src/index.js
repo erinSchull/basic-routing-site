@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { HashRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import App from './App';
-import {unregister} from './registerServiceWorker';
+import { unregister } from './registerServiceWorker';
 
 ReactDOM.render(
-<HashRouter>
-<App />
-</HashRouter>, document.getElementById('root'));
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>, document.getElementById('root'));
 unregister();
